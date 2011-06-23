@@ -1,0 +1,53 @@
+/*
+A graph describing Dustin Hoffman's existential analogy of "the blanket" from the movie _I Heart Huckabees_.
+*/
+
+graph Blanket {
+
+matter 
+energy
+universe
+
+blanket
+everything
+
+you 
+me
+vivian 
+"eiffel tower"
+war
+disease
+orgasm
+hammer
+
+everything -- blanket
+
+blanket -- matter 
+blanket -- energy
+blanket -- universe
+blanket -- you 
+blanket -- me
+blanket -- vivian 
+
+
+blanket -- "eiffel tower"
+
+blanket -- war
+blanket -- disease
+
+blanket -- orgasm
+blanket -- hammer
+
+
+me -- 60 
+me -- "grey suit"
+"grey suit" -- blanket
+you -- 21
+you  -- "dark hair"
+"dark hair" -- blanket
+
+vivian -- wife
+vivian -- colleague
+
+
+}

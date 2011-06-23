@@ -1,0 +1,12 @@
+digraph osb11 {
+    GraphViz [fontcolor=cyan, shape=diamond, style=filled,fillcolor=goldenrod1];
+    Code[style=filled,fillcolor=lightblue];
+    Systems[style=filled,fillcolor=mistyrose];
+    Data[style=filled,fillcolor=olivedrab2];
+    
+    GraphViz -> "Open-Source"[color=olivedrab2];
+    GraphViz -> "Body Scanner";
+    "Body Scanner" -> Code;
+    "Body Scanner" -> Systems;
+    "Body Scanner" -> Data;
+}

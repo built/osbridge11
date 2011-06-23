@@ -1,0 +1,19 @@
+graph OpenSourceBridge2011 {
+
+Matt[label="Matt Youell"];
+
+    "Welcome!" -- Matt;
+
+    speaker -- Matt;
+    speaker -- Ward;
+    Ward -- Matt -- AboutUs;
+    Ward -- hardware;
+    Ward --wiki;
+    Ward -- xp;
+    Ward -- txtzyme;
+    Ward -- Graphviz;
+    Ward -- graphs;
+    graphs -- colorful;
+    graphs -- detailed;
+    graphs -- useful;
+}

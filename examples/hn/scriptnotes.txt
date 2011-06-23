@@ -1,0 +1,18 @@
+for f in *.html; do cat $f | ./hn2d; done | ./hngraph > hntest.dot
+
+
+for f in data/*.html; do cat $f | ./hn2d; done | ./hngraph > hntest.dot
+
+
+for f in data/*.html; do 
+    cat $f | ./hn2d  | ./hngraph > hnespecial.dot
+    echo "processing $f, filesize: `ls -l $f | cut -d' ' -f8`"
+    sleep 1;
+done
+
+
+
+for f in data/*.html; do 
+    cat $f | ./hn2d  | ./hngraph > hnmovie.dot
+    sleep 5;
+done

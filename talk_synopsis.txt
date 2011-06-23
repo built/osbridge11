@@ -1,0 +1,15 @@
+GraphViz is an open source program for displaying the structure of data. We’ll discuss:
+
+ * Graphs, GraphViz, and DOT, the data format that drives GraphViz
+ * How to peer inside of a running system with a little bit of code and a whole lot of GraphViz
+ * Debugging and state modeling techniques for programmers
+ * Techniques for finding patterns in data sets.
+ * Problems with GraphViz
+
+Developers! Say goodbye to println debugging
+
+Analysts! Find simple ways to look at systems and data.
+
+Suits! Find patterns and opportunities you didn’t know were there.
+
+Aesthetes! See the natural beauty of data.

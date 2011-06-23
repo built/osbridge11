@@ -1,0 +1,12 @@
+Getting data:
+    http://introcs.cs.princeton.edu/java/data/
+    http://www-cs-faculty.stanford.edu/~knuth/sgb.html
+
+
+Using Graphviz:
+
+    Colors
+    http://www.graphviz.org/doc/info/colors.html
+
+    Shapes
+    http://www.graphviz.org/doc/info/shapes.html

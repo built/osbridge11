@@ -1,0 +1,5 @@
+A great demo of Graphviz. Data taken from the wonderful collection of "Real-World Data Sets" at http://introcs.cs.princeton.edu/java/data/.
+
+The data and the corresponding DOT file list all of the states in the US along with all of the other states which they touch.
+
+For best effect when showing others, make sure that Graphviz renders in hierarchical layout mode. Once the graph is loaded, switch to Energy Minimized layout and watch the magic happen.

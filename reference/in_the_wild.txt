@@ -1,0 +1,26 @@
+Some brief examples of others' use of Graphviz:
+
+Social graphs (from wikipedia)
+http://upload.wikimedia.org/wikipedia/en/d/de/Mvblog29jan06h.jpg
+
+Create attractive (site) diagrams with Graphviz
+http://www.the-haystack.com/2008/02/12/create-attractive-site-diagrams-with-graphviz/
+
+DjangoGraphviz (database diagramming tool)
+https://code.djangoproject.com/wiki/DjangoGraphviz
+
+Graphviz your chef dependencies
+https://gist.github.com/364326
+
+Tracing function calls with GCC and Graphviz
+http://www.ibm.com/developerworks/linux/library/l-graphvis/?S_TACT=105AGX52&S_CMP=cn-a-l
+
+Family Tree
+http://stackoverflow.com/questions/2271704/family-tree-layout-with-dot-graphviz
+
+Twitter visualization (movie)
+http://www.youtube.com/watch?v=xrFjN92Swi8
+
+
+A graph of bloggers
+http://upload.wikimedia.org/wikipedia/en/d/de/Mvblog29jan06h.jpg
