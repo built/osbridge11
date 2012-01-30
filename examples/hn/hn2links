@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+# This is a filter that takes in HTML (presumably the HN front page)
+# on stdin and spits out (to stdout) a list of the story links.
+
+import sys
+import re
+from BeautifulSoup import BeautifulSoup
+
+domain = re.compile("http(s)?://(www\.)?([^\/\?\#]+)")
+
+doc = BeautifulSoup(sys.stdin.read())
+table_cells = doc.findAll('td', 'title')
+
+links = [td.a['href'] for td in table_cells if len(td.attrs) == 1 and td.a.text.lower() != "more"]
+
+for link in links:
+    print link
